@@ -48,19 +48,18 @@
         <input type="text" id="perimeterBase" placeholder="Enter the base (cm)" name="perimeterBase"><br><br>
         <label for=aSide">A Side (cm):</label>
         <input type="text" id="perimeterASide" placeholder="Enter the A side (cm)" name="perimeterASide"><br><br>
-        <label for=cSide">B Side (cm):</label>
-        <input type="text" id="perimeterCSide" placeholder="Enter the B side (cm)" name="perimeterCSide"><br><br>
+        <label for=cSide">C Side (cm):</label>
+        <input type="text" id="perimeterCSide" placeholder="Enter the C side (cm)" name="perimeterCSide"><br><br>
         <input type="submit" value="Calculate Perimeter">
       </form>
         
 			<!-- iframe for the results to show on the web page. -->
-			<iframe id="areaPerResults" name="areaPerResults">			
+			<iframe id="areaResults" name="areaResults">			
 				The area of the triangle is  " + $area + cm<sup>2</sup>
-        
-        The perimeter of the triangle is  " + $perimeter + cm
 	    </iframe>
 
-        
-        
+          <iframe id="perimeterResults" name="perimeterResults">		   
+        The perimeter of the triangle is  " + $perimeter + cm
+	    </iframe>
 	</body>
 </html>
