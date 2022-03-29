@@ -42,7 +42,6 @@
 
         
       <!-- Form to the the base and two sides from user input.-->
-      
         <label for="perBase"><br>Base (cm):</label>
         <input type="text" id="perimeterBase" placeholder="Enter the base (cm)" name="perimeterBase"><br><br>
         <label for=aSide">A Side (cm):</label>
@@ -57,6 +56,5 @@
 				The area of the triangle is  " + $area + cm<sup>2</sup>
         The perimeter of the triangle is  " + $perimeter + cm
 	    </iframe>
-
 	</body>
 </html>
