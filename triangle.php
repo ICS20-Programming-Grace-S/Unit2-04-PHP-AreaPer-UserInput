@@ -1,5 +1,5 @@
 <?php
-	// get the base and height from the textfields
+	// get the base and height from the text fields
 	$base = $_POST['base'];
 	$height = $_POST['height'];
 
@@ -10,7 +10,7 @@
 The area of the triangle is <?php echo "$area" ?>cm<sup>2</sup>.
 
 <?php
-// get the sides from the textfields
+// get the sides from the text fields
 $perimeterBase = $_POST['perimeterBase'];
 $perimeterASide = $_POST['perimeterASide'];
 $perimeterCSide = $_POST['perimeterCSide'];
