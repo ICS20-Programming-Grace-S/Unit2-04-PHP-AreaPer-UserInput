@@ -10,12 +10,12 @@
 The area of the triangle is <?php echo "$area" ?>cm<sup>2</sup>.
 
 <?php
-// get the base and height from the textfields
+// get the sides from the textfields
 $perimeterBase = $_POST['perimeterBase'];
 $perimeterASide = $_POST['perimeterASide'];
 $perimeterCSide = $_POST['perimeterCSide'];
 
-	// calculate the area
+	// calculate the perimeter
 	$perimeter= $perimeterBase + $perimeterASide + $perimeterCSide
 ?>
 

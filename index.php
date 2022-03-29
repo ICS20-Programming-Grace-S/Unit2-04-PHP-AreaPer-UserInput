@@ -34,9 +34,9 @@
 
 		<!-- form to get the base and height from the user -->
     <form action="./triangle.php" method="post" target="areaResults">
-      <label for="lblBase">Base (cm):</label>
+      <label for="aBase">Base (cm):</label>
       <input type="text" id="base" placeholder="Enter the base (cm)" name="base"><br><br>
-      <label for="lblHeight">Height (cm):</label>
+      <label for="aHeight">Height (cm):</label>
       <input type="text" id="height" placeholder="Enter the height (cm)" name="height"><br><br>
       <input type="submit" value="Calculate Area">
       
