@@ -4,6 +4,10 @@
  * ICS2O-Unit2-04-PHP-AreaPer-UserInput
 */
 
+body {
+	background-color: #fdedec;
+}
+
 h1 {
   width: 80%;
   margin-left: 13%;
