@@ -6,5 +6,5 @@
 	// calculate the area
 	$area = $base * $height / 2
 ?>
-<h3>Results:</h3>
+<h3>Area of Triangle:</h3>
 The area of the triangle is <?php echo "$area" ?>cm<sup>2</sup>.
