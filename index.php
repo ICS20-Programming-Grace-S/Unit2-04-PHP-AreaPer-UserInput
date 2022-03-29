@@ -45,11 +45,11 @@
       <!--form to the the base and two sides from user input.-->
       <form action="./triangle.php" method="post" target="perimeterResults">
         <label for="perBase">Base (cm):</label>
-        <input type="text" id="perimeterBase" placeholder="Enter the base (cm)" name="perBase"><br><br>
+        <input type="text" id="perimeterBase" placeholder="Enter the base (cm)" name="perimeterBase"><br><br>
         <label for=aSide">A Side (cm):</label>
-        <input type="text" id="perimeterASide" placeholder="Enter the A side (cm)" name="perASide"><br><br>
-        <label for=bSide">B Side (cm):</label>
-        <input type="text" id="perimeterBSide" placeholder="Enter the B side (cm)" name="perBSide"><br><br>
+        <input type="text" id="perimeterASide" placeholder="Enter the A side (cm)" name="perimeterASide"><br><br>
+        <label for=cSide">B Side (cm):</label>
+        <input type="text" id="perimeterCSide" placeholder="Enter the B side (cm)" name="perimeterCSide"><br><br>
         <input type="submit" value="Calculate Perimeter">
       </form>
         
